@@ -1,0 +1,23 @@
+.div1 {
+    background-color: aqua;
+}
+
+.div2 {
+    background-color: blue;
+}
+
+.div3 {
+
+background-color: brown;
+}
+
+button {
+    color: chartreuse
+    background-color: black; 
+    border-radius: 20px;
+} 
+
+button:hover {
+color: fuchsia;
+transition: 0.5s;
+}

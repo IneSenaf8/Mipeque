@@ -1,0 +1,80 @@
+body {
+    margin: 0%;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255); /* Texto boton blanco */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+    background-color: rgb(150, 96, 197); /* Botones violeta */
+    margin-right: 10px; /* Espacio entre botones */
+    border-bottom-right-radius: 50%;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color:rgb(150, 96, 197);
+    text-align: right;
+    font-size: 65%;
+    color: white;
+}
+
+#presentacion{
+    text-align: center;
+    background-color: rgb(150, 96, 197);
+    color: white;
+
+}
+
+/* Estilos para el logo*/
+.logo {
+    float: left;
+    padding: 10px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    }
+    
+.image-container img {
+        margin: 10% 10px; 
+    }
+    
+
+footer {
+background-color:rgb(150, 96, 197);
+color: white;
+padding: 5%;
+text-decoration: none;
+
+}
+
+footer .ine {
+    margin-top: 20px;
+    background-color:rgb(158, 125, 188);
+    color: white;
+    text-align: center;
+}
+
+/*Estilo carrusel*/
+#carousel {
+    width: 80%; /* Ancho del carrusel */
+    margin: 0 auto; /* Centrar el carrusel en la página */
+  }
+
+  .carousel-item img {
+    height: 300px; /* Altura de las imágenes en el carrusel */
+    object-fit: cover; /* Ajustar las imágenes al tamaño del contenedor */
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #007bff; /* Color de fondo de los botones de navegación */
+  }
