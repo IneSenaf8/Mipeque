@@ -4,49 +4,75 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.navbar a {
-    float: right;
-    display: block;
-    color: rgb(255, 255, 255); /* Texto boton blanco */
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; 
-    background-color: rgb(150, 96, 197); /* Botones violeta */
-    margin-right: 10px; /* Espacio entre botones */
-    border-bottom-right-radius: 50%;
-    font-family: Arial, sans-serif;
+/*secciones*/
+.menu{
+    padding: 40px;
+    background-color: #da91e0;
 }
 
-nav {
-    background-color:rgb(150, 96, 197);
-    text-align: right;
-    font-size: 65%;
-    color: white;
+.cuerpo{
+    padding: 40px;
+    background-color: hsla(281, 80%, 86%, 0.836)
 }
+
+/*barra contiene logo*/
+.navbar {
+    background-color: #84358b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo img {
+    width: 100px;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+  .boton-estilo {
+    
+    text-decoration: none;
+    padding: 20px 30px; /* Ajusta el espacio interno del botón */
+    background-color: #9e4caf; /* Establece el color de fondo */
+    color: white; /* Establece el color del texto */
+    border-radius: 20px; /* Agrega bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    margin-right: 10px;
+  }
+  
+  .boton-estilo li {
+    display: inline; /* Muestra los elementos de lista en línea */
+    margin-right: 10px; /* Ajusta el espacio entre los elementos de lista */
+  }
+
 
 #presentacion{
     text-align: center;
-    background-color: rgb(150, 96, 197);
     color: white;
 
 }
 
-/* Estilos para el logo*/
-.logo {
-    float: left;
-    padding: 10px;
-}
-
-.image-container{
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    }
-    
-.image-container img {
-        margin: 10% 10px; 
-    }
-    
 
 footer {
 background-color:rgb(150, 96, 197);
@@ -57,24 +83,62 @@ text-decoration: none;
 }
 
 footer .ine {
-    margin-top: 20px;
+    margin-top: 10px;
     background-color:rgb(158, 125, 188);
     color: white;
     text-align: center;
+
+    padding: 20px;
 }
-
+.pie{
+    padding: 50vh;
+}
 /*Estilo carrusel*/
-#carousel {
-    width: 80%; /* Ancho del carrusel */
-    margin: 0 auto; /* Centrar el carrusel en la página */
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    display: none;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+    
+  .prev {
+   
+    grid-column: 1;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
   }
 
-  .carousel-item img {
-    height: 300px; /* Altura de las imágenes en el carrusel */
-    object-fit: cover; /* Ajustar las imágenes al tamaño del contenedor */
+  .next {
+    
+    grid-column: 3;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: #555;
   }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    background-color: #007bff; /* Color de fondo de los botones de navegación */
-  }
+  
