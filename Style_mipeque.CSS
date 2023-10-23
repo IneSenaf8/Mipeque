@@ -2,97 +2,44 @@ body {
     margin: 0%;
     padding: 0;
     font-family: Arial, sans-serif;
+    font-size: small;
 }
 
 /*secciones*/
 .menu{
     padding: 40px;
-    background-color: #da91e0;
+    background-color: #BAB6E0;
 }
 
 .cuerpo{
     padding: 40px;
     background-color: hsla(281, 80%, 86%, 0.836)
 }
-
-/*barra contiene logo*/
-.navbar {
-    background-color: #84358b;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
   
   .logo img {
-    width: 100px;
-    
-  }
-  
-  .nav-links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .nav-links li {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li a {
-    text-decoration: none;
-    color: #fff;
-    background-color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-  }
+    width: 200px;   
+}
 
   .boton-estilo {
     
     text-decoration: none;
     padding: 20px 30px; /* Ajusta el espacio interno del botón */
-    background-color: #9e4caf; /* Establece el color de fondo */
+    background-color: #645EA5; /* Establece el color de fondo */
     color: white; /* Establece el color del texto */
-    border-radius: 20px; /* Agrega bordes redondeados */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
-    margin-right: 10px;
-  }
-  
-  .boton-estilo li {
-    display: inline; /* Muestra los elementos de lista en línea */
-    margin-right: 10px; /* Ajusta el espacio entre los elementos de lista */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    cursor: pointer; /* Cambia el cursor a manito al pasar sobre el botón */
+    outline: none;
+    border: none;
   }
 
 
 #presentacion{
     text-align: center;
     color: white;
+    font-size: 10px;
 
 }
 
-
-footer {
-background-color:rgb(150, 96, 197);
-color: white;
-padding: 5%;
-text-decoration: none;
-
-}
-
-footer .ine {
-    margin-top: 10px;
-    background-color:rgb(158, 125, 188);
-    color: white;
-    text-align: center;
-
-    padding: 20px;
-}
-.pie{
-    padding: 50vh;
-}
 /*Estilo carrusel*/
 
 .slider {
@@ -117,28 +64,45 @@ footer .ine {
   .prev {
    
     grid-column: 1;
-    background-color: #333;
+    background-color: #BAB6E0;
     color: #fff;
     padding: 10px 15px;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border: none;
   }
 
   .next {
     
     grid-column: 3;
-    background-color: #333;
+    background-color: #BAB6E0;
     color: #fff;
     padding: 10px 15px;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border: none;
   }
   
   .prev:hover,
   .next:hover {
-    background-color: #555;
+    background-color: #645EA5;
   }
+
+
+  footer {
+    background-color:#BAB6E0;
+    color: white;
+    text-size-adjust: 5px;
+    text-decoration: none;
+    font-size: small;
+    }
+    
+    footer .ine { 
+        margin-top: 10px;
+        text-align: center;
+        background-color: #BAB6E0
+    }
 
   
