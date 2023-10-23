@@ -12,3 +12,6 @@ function changeSlide(n) {
 }
 
 showSlide(currentSlide);
+
+
+
