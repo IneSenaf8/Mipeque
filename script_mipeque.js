@@ -1,5 +1,5 @@
 let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
+const slides = document.querySelectorAll('.slide'); // hace que cambien de color el slider cuando pao el puntero //
 
 function showSlide(n) {
   slides[currentSlide].style.display = 'none';

@@ -8,6 +8,7 @@ body {
 .menu{
     padding: 40px;
     background-color: #BAB6E0;
+    
 }
 
 .cuerpo{
@@ -55,6 +56,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     position: relative;
+    margin-top: 30px; 
+    margin-bottom: 30px;
   }
   
   .slide {
@@ -74,11 +77,12 @@ body {
     grid-column: 1;
     background-color: #BAB6E0;
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s;  
     border: none;
+    
   }
 
   .next {
@@ -86,19 +90,21 @@ body {
     grid-column: 3;
     background-color: #BAB6E0;
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 20px;
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s;
     border: none;
+     
   }
   
   .prev:hover,
   .next:hover {
     background-color: #645EA5;
+    
   }
 
-/*Estilo pie ded pagina*/
+/*Estilo pie de pagina*/
 
   footer {
     background-color:#BAB6E0;
@@ -170,7 +176,7 @@ body {
 }
 
 .imagen img {
-    width: 300px; /* Ajusta el ancho de las imágenes según tus necesidades */
+    width: 300px; /* ancho de las imágenes */
     height: auto;
 }
 
