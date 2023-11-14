@@ -13,5 +13,12 @@ function changeSlide(n) {
 
 showSlide(currentSlide);
 
+const wheel = document.querySelector('.wheel');
+const spinButton = document.querySelector('.spin-button');
+
+
+
+
+
 
 

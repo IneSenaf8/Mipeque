@@ -18,10 +18,10 @@
         <nav class="navbar">
 
  <!-- Logo en el lado izquierdo con link para volver al home-->
-            <div class="logo">
-                <a href="index.html"> <img src="Imagenes/LOGO MIPEQUEÑA GIGANTE.png" alt="Mi Logo">
-              </a>
-            </div>
+ <div class="logo">
+  <a href="index.html"> <img src="Imagenes/LOGO MIPEQUEÑA GIGANTE.png" alt="Mi Logo">
+  </a>
+</div>
 
  <!-- Botones con link secciones -->
  <div>
@@ -30,8 +30,6 @@
     <button class="boton-estilo"><a href="galeria.html">Galeria</a></button>
     <button class="boton-estilo"><a href="soloParaVos.html">Solo para vos</a></button>
 </div>
-
-
         </nav>
 
  <!-- Contenido de la página -->
@@ -41,24 +39,115 @@
 
     </section>
 
+
+<!--ruleta de descuentos-->
+
+    
+
 <!-- Carrusel -->
-        <div class="slider">
-            <button class="prev" onclick="changeSlide(-1)"> 《 </button>
-            <div class="slide">
-                <img src="Imagenes/ABU.jpg" alt="Imagen 1">
-            </div>
-            <div class="slide">
-                <img src="Imagenes/AGENDA MAMA.jpg" alt="Imagen 2">
-            </div>
-            <div class="slide">
-                <img src="Imagenes/AGENDA MESSI.png" alt="Imagen 3">
-            </div>
 
-            <button class="next" onclick="changeSlide(1)"> 》</button>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/Imagenes/AGENDA ESTUDIANTIL 1.jpeg" class="d-block w-100" alt="agenda estudiantil 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>CONOCE NUESTROS PRODUCTOS</h5>
+                <p>Cuadernos personalizados</p>
+            </div>
         </div>
-<!-- Fin del carrusel -->
+        <div class="carousel-item">
+            <img src="/Imagenes/AGENDA MAMA.jpg" class="d-block w-100" alt="agenda mama">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>CONOCE NUESTROS PRODUCTOS</h5>
+                <p>Agendas perpetuas</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="/Imagenes/AGENDA PERPETUA 1.jpeg" class="d-block w-100" alt="agenda perpetua 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>CONOCE NUESTROS PRODUCTOS</h5>
+                <p>Agendas personalizadas</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
 
-    </section>
+<!-- Cards con fotos 1-->
+<div class="card-container">
+    <div class="card">
+        <img src="/Imagenes/AGENDA ESTUDIANTIL 1.jpeg" alt="agenda estudiantil 1">
+        <div class="card-content">
+            <h3 class="card-title">Agenda estudiantl</h3>
+            <p class="card-description">Incorpora a</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Imagenes/AGENDA ESTUDIANTIL 3.jpeg" alt="Imagen 2">
+        <div class="card-content">
+            <h3 class="card-title">AGENDA ESTUDIANTIL</h3>
+            <p class="card-description">Poner descripcion</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="/Imagenes/AGENDA ESTUDIANTIL 2.jpeg" alt="Imagen 3">
+        <div class="card-content">
+            <h3 class="card-title"> AGENDA ESTUIANTIL</h3>
+            <p class="card-description">poner descripcion</p>
+        </div>
+    </div>
+</div>
+
+<!-- Cards con fotos 2-->
+<div class="card-container">
+    <div class="card">
+        <img src="/Imagenes/AGENDA PERPETUA 2.jpeg" alt="agenda estudiantil 1">
+        <div class="card-content">
+            <h3 class="card-title">Agenda estudiantil</h3>
+            <p class="card-description">Incorpora a</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Imagenes/AGENDA PERPETUA 1.jpeg" alt="Imagen 2">
+        <div class="card-content">
+            <h3 class="card-title">Agenda perpetua</h3>
+            <p class="card-description">Descripcion perpetua</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="/Imagenes/AGENDA PERPETUA.jpeg" alt="Imagen 3">
+        <div class="card-content">
+            <h3 class="card-title">Perpetua </h3>
+            <p class="card-description">Descripcion perpetua</p>
+        </div>
+    </div>
+</div>
+
+<!-- Datos redes y contacto -->
+
+    <div class="redes-sociales">
+        <a href="https://www.facebook.com"><img src="Imagenes/logo fc.png" alt="Facebook"></a>
+        <a href="linktr.ee/mipequenagigante"><img src="Imagenes/logo ws.jpg" alt="whatsapp"></a>   
+        <a href="https://www.instagram.com/mi_pequenagigante/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img src="Imagenes/logo ig.jpg" alt="Instagram"></a>
+    </div>
+
+</div>
 
 <!-- Pie de pagina -->
 
@@ -70,11 +159,13 @@
         </ul>
 
         <div class="ine">
-            <li>Todos los derechos reservados © Ine Senaf</li>
+            <li>Todos los derechos reservados © Ine Senaf </li>
         </div>
     </footer>
 
     <script src="./script_mipeque.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
