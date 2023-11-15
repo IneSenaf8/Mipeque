@@ -20,8 +20,28 @@ body {
     width: 200px;   
 }
 
-.contenedor img {
+
+
+#btn {
+  
+  padding: 20px 30px; /* espacio interno del botón */
+  background-color: #e3e2ee; /* color de fondo boton */
+  color: white; /* color del texto boton*/
+  border-radius: 20px; /* bordes redondeados */
+  cursor: pointer; /* Cambia el cursor a manito al pasar sobre el botón */
+  border: none;
   float: left;
+}
+
+#presentacion{
+  text-align: center;
+  color: white;
+  font-size: 5px;
+}
+
+
+.contenedor img {
+  float: left;    
   margin-right: 10px;
   width: 450px; 
 
@@ -53,15 +73,6 @@ body {
   font-size: 24px;
 }
 
-.boton-estilo {
-  text-decoration: none;
-  padding: 20px 30px; /* espacio interno del botón */
-  background-color: #e3e2ee; /* color de fondo boton */
-  color: white; /* color del texto boton*/
-  border-radius: 10px; /* bordes redondeados */
-  cursor: pointer; /* Cambia el cursor a manito al pasar sobre el botón */
-  border: none;
-}
 
 /*Estilo cards*/
 
@@ -101,13 +112,7 @@ body {
 
 
 
-#presentacion{
-  text-align: center;
-  color: white;
-  font-size: 5px;
-}
-
-#presentacion h1 {
+#presentacion h5 {
   font-size: 30px;
 }
 
